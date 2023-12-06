@@ -3,9 +3,12 @@ using Microsoft.SemanticKernel.AI.ChatCompletion;
 
 namespace Ng.Chat.Copilot.Api.Connectors
 {
-    public sealed class NgChatCopilotChatCompletion : IChatCompletion
+    public sealed class NgChatCopilotChatCompletion(string modelPath) : IChatCompletion
     {
-        public IReadOnlyDictionary<string, string> Attributes { get; set; }
+        private readonly string _modelPath = modelPath;
+
+        public IReadOnlyDictionary<string, string> Attributes { get; set; } = new Dictionary<string, string>();
+
         public ChatHistory CreateNewChat(string? instructions = null)
         {
             throw new NotImplementedException();
