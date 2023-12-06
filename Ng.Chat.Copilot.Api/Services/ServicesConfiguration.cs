@@ -3,7 +3,7 @@ using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.AI.ChatCompletion;
 using Microsoft.SemanticKernel.AI.Embeddings;
 using Microsoft.SemanticKernel.AI.TextCompletion;
-using Ng.Chat.Copilot.Api.Connectors;
+using Ng.Chat.Copilot.Connector.Connectors;
 
 namespace Ng.Chat.Copilot.Api.Services;
 

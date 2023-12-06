@@ -1,6 +1,6 @@
 ﻿using Microsoft.SemanticKernel.AI.Embeddings;
 
-namespace Ng.Chat.Copilot.Api.Connectors
+namespace Ng.Chat.Copilot.Connector.Connectors
 {
     public sealed class NgChatCopilotTextEmbeddingGeneration(string modelPath) : ITextEmbeddingGeneration
     {

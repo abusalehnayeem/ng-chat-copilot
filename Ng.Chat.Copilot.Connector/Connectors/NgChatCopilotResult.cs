@@ -3,7 +3,7 @@ using System.Text;
 using Microsoft.SemanticKernel.AI.TextCompletion;
 using Microsoft.SemanticKernel.Orchestration;
 
-namespace Ng.Chat.Copilot.Api.Connectors;
+namespace Ng.Chat.Copilot.Connector.Connectors;
 
 public sealed class NgChatCopilotResult(IAsyncEnumerable<string> text) : ITextStreamingResult
 {

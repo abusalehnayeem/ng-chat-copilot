@@ -1,7 +1,7 @@
 ﻿using Microsoft.SemanticKernel.AI;
 using Microsoft.SemanticKernel.AI.TextCompletion;
 
-namespace Ng.Chat.Copilot.Api.Connectors;
+namespace Ng.Chat.Copilot.Connector.Connectors;
 
 public sealed class NgChatCopilotTextCompletion(string modelPath) : ITextCompletion
 {
